@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Doctor's appointment</title>
+        </head>
+        <body>
+            <H1> Doctor's Appointment</H1>
+            <p> Welcome to our doctor's appointment booking system. Here you can book an appointment with one of our specialists throughout the week.</p>
+            <fieldset>
+                <legend> Personal Details</legend>
+                <label> Name:</label>
+                <input type="text" name="name" placeholder="Enter your name"><br><br>
+                <label> Age:</label>
+                <input type="text" name="age" placeholder="Enter your age"><br><br>
+                <label> Patient ID:</label>
+                <input type="text" name="patient_id" placeholder="Enter your patient ID"><br><br>
+                <label> Gender:</label><br><br>
+                <input type="radio" name="gender" value="male"> Male<br><br>
+                <input type="radio" name="gender" value="female"> Female<br><br>
+                <label>Date of Birth:</label>
+                <input type="date" name="dob"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend> Your Visit</legend>
+                <select name="select your doctor">
+                    <option> Dr. Singh</option>
+                    <option> Dr. Srivastava</option>
+                    <option> Dr. Sharma</option>
+                </select><br>
+                <label> Reason for visit:</label><br>
+                <input type="radio" name="reason" value="checkup"> Checkup<br>
+                <input type="radio" name="reason" value="cold"> Cold<br>
+                <input type="radio" name="reason" value="fever"> Fever<br>
+                <input type="radio" name="reason" value="other"> Other<br>
+                <textarea name="Any notes to the doctor?" rows="4" cols="50" placeholder="Enter any additional information for the doctor..."></textarea>
+            </fieldset>
+            <fieldset>
+                <legend> Preferred Visit Day</legend>
+                <input type="checkbox" name="day" value="monday"> Monday
+                <input type="checkbox" name="day" value="tuesday"> Tuesday 
+                <input type="checkbox" name="day" value="wednesday"> Wednesday
+                <input type="checkbox" name="day" value="thursday"> Thursday
+            </fieldset>
+        </body>
+</html>
