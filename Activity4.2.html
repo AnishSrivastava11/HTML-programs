@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title> Book Donation Form</title>
+    </head>
+    <body>
+        <h1> Book Donation Form</h1>
+        <fieldset>
+            <legend> Personal Information</legend>
+            <label> Name: </label>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
+            <label> Age: </label>
+            <input type="number" name="age" placeholder="Enter your age"><br><br>
+            <label> Gender</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female<br>
+            <label> Email</label>
+            <input type="email" name="email" placeholder="Enter your email"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend> Book Details</legend>
+            <label> Book Title: </label>
+            <input type="text" name="book_title" placeholder="Enter the book title"><br><br>
+            <label> Author: </label>
+            <input type="text" name="author" placeholder="Enter the author's name"><br><br>
+            <label> Genre: </label>
+            <select name="genre">
+                <option value="fiction">Fiction</option>
+                <option value="non-fiction">Non-Fiction</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+                <option value="biography">Biography</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label> Condition of the Book: </label><br>
+            <input type="radio" name="condition" value="new"> New<br>
+            <input type="radio" name="condition" value="good"> Good<br>
+            <input type="radio" name="condition" value="fair"> Fair<br>
+            <input type="radio" name="condition" value="poor"> Poor<br><br>
+        </fieldset>
+        <fieldset>
+            <legend> Preferred Visit Day</legend>
+            <input type="checkbox" name="day" value="monday"> Monday
+            <input type="checkbox" name="day" value="tuesday"> Tuesday
+            <input type="checkbox" name="day" value="wednesday"> Wednesday
+            <input type="checkbox" name="day" value="thursday"> Thursday
+        </fieldset>
+    </body>
+</html>
